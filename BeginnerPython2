@@ -1,0 +1,8 @@
+## Random number generator that gives integers only divisible by 3 ## 
+import random
+Number = random.randrange(100, 999)
+if Number%3!=0:
+    random.randrange(100, 999)
+else: 
+    Number%3!=0
+    print(Number)
